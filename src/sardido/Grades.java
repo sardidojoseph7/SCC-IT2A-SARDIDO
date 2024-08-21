@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Grades {
     
-    public void getGrade(String[]args){
+    public void getGrade(){
         Scanner input = new Scanner(System.in);
         
         String name;
@@ -47,4 +47,4 @@ public class Grades {
         }
     }
     }
-}
+
