@@ -14,8 +14,8 @@ public class SARDIDO {
      */
     public static void main(String[] args) {
         
-//        Grades gr = new Grades();
-//        gr.getGrade();
+        Grade gr = new Grade();
+        gr.genGrade();
 
      //   Product pr = new Product();
      //   pr.addProduct(1011, 10, "Soap", 20);
@@ -24,7 +24,7 @@ public class SARDIDO {
      //   Product pr1 = new Product();
      //   pr1.addProduct(1012, 50, "Cards", 0);
      //   pr1.viewProduct();
-
+/*
        Scanner sc = new Scanner(System.in);
        Product[] pr = new Product[100];
      
@@ -57,8 +57,9 @@ public class SARDIDO {
          
         System.out.println("Total Profit: "+ttp);
         System.out.println("Total TEP: "+ttp);
- 
-     /*Scanner sc = new Scanner(System.in);
+     */
+
+   /*  Scanner sc = new Scanner(System.in);
      Account[] acc = new Account[100];
        
         int no, i, id;
@@ -168,11 +169,16 @@ public class SARDIDO {
         for (i = 0; i < no; i++) {
             if(acc[i] != null){
             acc[i].viewAccount();
-            System.out.println(""); */
+            System.out.println(""); 
         
         
    
-
+*/
        }
+   
+
    }
+        
+    
+
 
