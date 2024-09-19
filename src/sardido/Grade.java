@@ -14,12 +14,31 @@ public class Grade {
             System.out.print("Prelim: ");
             double npr = sc.nextDouble();
             grs[i].p = npr;
+            
+     if(id == grs[i].id){
+          System.out.println("Enter NEW grades of student "+grs[i].id+":");
+            System.out.print("Midterm: ");
+            double nm = sc.nextDouble();
+            grs[i].m = nm;
+            
+     if(id == grs[i].id){
+          System.out.println("Enter NEW grades of student "+grs[i].id+":");
+            System.out.print("Pre-final: ");
+            double npf = sc.nextDouble();
+            grs[i].pf = npf;
+            
+    if(id == grs[i].id){
+          System.out.println("Enter NEW grades of student "+grs[i].id+":");
+            System.out.print("Final: ");
+            double nf = sc.nextDouble();
+            grs[i].f = nf;
 
-      }
-  }
-
+                     }
+                }
+            }
+        }
+    }
 }
-
 public void genGrade(){
  Scanner sc = new Scanner(System.in);
     Grades[] gr = new Grades[100];
