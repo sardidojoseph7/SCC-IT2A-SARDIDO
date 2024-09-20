@@ -1,4 +1,3 @@
-
 package sardido;
 
 import java.util.Scanner;
@@ -8,44 +7,20 @@ public class SARDIDO {
     
     public static void main(String[] args) {
         
-        //     Grade gr = new Grade();
-        //    gr.genGrade();
-        //   Product pr = new Product();
-        //   pr.addProduct(1011, 10, "Soap", 20);
-        //   pr.viewProduct();
-        //   Product pr1 = new Product();
-        //   pr1.addProduct(1012, 50, "Cards", 0);
-        //   pr1.viewProduct();
+        // GRADES //
+        
+           Grade gr = new Grade();
+           gr.genGrade();
+      
+        // PRODUCT //
+        
+         //   Product pr = new Product();
+         //   pr.Product();
+
+         
+            // ACCOUNT //
 /*
-        Scanner sc = new Scanner(System.in);
-        Product[] pr = new Product[100];
-        int nump, i;
-        System.out.print("Enter no. of products: ");
-        nump = sc.nextInt();
-        int ttp = 0;
-        for (i = 0; i < nump; i++ ){
-        System.out.println("Enter details of product "+(i + 1)+": ");
-        System.out.print("ID: ");
-        int id = sc.nextInt();
-        System.out.print("Name: ");
-        String name = sc.next();
-        System.out.print("Price: ");
-        double pri = sc.nextDouble();
-        System.out.print("Stock: ");
-        int st = sc.nextInt();
-        System.out.print("Sold: ");
-        int sold = sc.nextInt();
-        pr[i]= new Product();
-        pr[i].addProduct(id, name, pri, st, sold);
-        ttp = (int) (ttp + (pri * sold));
-        }
-        for (i = 0; i < nump; i++ ){
-        pr[i].viewProduct();
-        }
-        System.out.println("Total Profit: "+ttp);
-        System.out.println("Total TEP: "+ttp);
-         */
-                Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
             System.out.print("Enter number of accounts to register: ");
             int numberOfAccounts = scanner.nextInt();
             scanner.nextLine();
@@ -89,11 +64,8 @@ public class SARDIDO {
 
             
             scanner.close();
-        }
+*/
+
     }
-
-
-
+}
     
-
-

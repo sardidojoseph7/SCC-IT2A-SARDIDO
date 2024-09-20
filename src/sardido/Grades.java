@@ -1,8 +1,6 @@
 
 package sardido;
 
-import java.util.Scanner;
-
 
 public class Grades {
     
